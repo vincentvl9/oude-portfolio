@@ -1,0 +1,151 @@
+/*
+  Class:    4A7B
+  Name:     Vincent
+  Purpose:  Portfolio
+  
+  mm-dd-yyyy  Description
+  ----------  -----------------------------
+  10-1-2018   Initial
+*/
+
+/************************************************
+ *Include the padding and border to all elements*
+ ************************************************/
+* {
+  box-sizing: border-box;
+}
+/************************
+ *Default setting       *
+ ************************/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 100%;
+  font-family: 'Calibri', 'Arial', 'Helvetica';
+  color: black;
+  background-color: #1e1e15;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  filter: blur(3px);
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+header {
+  position: absolute;
+  width: 95%;
+  height: 150px;
+  background: linear-gradient(to top, #0066ff 0%, #99ccff 100%);
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin: 20px; 
+  text-align: center; 
+  color: blue;  
+}
+
+.logo {
+  float: left;
+  border: 2px solid blue;
+  border-radius: 2px;
+  height: 65%;
+}
+
+.nav {
+  position: relative;
+  width: 100px;
+  padding: 5px;
+  background-color: skyblue;
+  color: black;
+  border: 3px solid black;
+  margin-right: 5px;
+  top: 110px;
+  left: -600px;
+  text-decoration: none;
+}
+
+.nav:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+section {
+  position: absolute;
+  float: left;
+  height: 400px;
+  width: 95%;
+  border: 2px solid blue;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-top: 180px;
+  background: linear-gradient(to bottom, #9999ff 0%, #ffffcc 100%);
+}	
+
+.circle {
+  position: relative;
+  float: left;
+  top: 10px;
+  left: 250px;
+  border: 2px solid black;	
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: url("../images/ik.jpg") -2.5px -60px;
+}
+
+.textone {
+  position: relative;
+  float: left;
+  top: 182.5px;
+  left: 100px;
+  width: 300px;
+  height: 175px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background: transparent;
+  color: black;
+}
+
+.texttwo { 
+  float: right;
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #000000 0%, #000066 100%);
+  color: white;
+}
+
+.textthree {
+  margin: 10px;
+  float: right;
+  width: 300px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #000000 0%, #000066 100%);
+  color: white;
+}
+
+footer {
+  margin-left: 20px;
+  position: absolute;
+  float: bottom;
+  height: 50px;
+  width: 95%;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #ccccff 0%, #000066 100%);
+  top: 90%;
+  text-align: center;
+  color: grey;
+} 
+
+
+
+
